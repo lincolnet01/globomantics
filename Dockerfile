@@ -4,7 +4,7 @@ FROM node:alpine
 WORKDIR /app
 
 # Copy jason file and install dependenties
-COPY ./package*.json .
+COPY ./package.json .
 RUN npm install 
 
 # Copy the rest of files
